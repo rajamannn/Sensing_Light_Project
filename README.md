@@ -1,4 +1,4 @@
-# IR Sensor Controlled Relay Project 🔴⚡
+#  🔴⚡IR Sensor Controlled Relay Project
 
 This project uses an IR sensor to control a relay, allowing a device (like a light) to be toggled ON and OFF when an object is detected. The relay used is **active LOW**, so it switches when triggered by the sensor.
 
@@ -29,3 +29,4 @@ An image of the circuit/setup has been attached in this repository.
 ## Notes 📝
 - The relay is **active LOW**, so `LOW` turns it ON and `HIGH` turns it OFF.  
 - For multiple triggers, ensure the object fully moves away from the IR sensor before the next detection.
+- Programmed and uploaded using **Arduino IDE**.
